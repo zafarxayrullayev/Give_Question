@@ -58,10 +58,134 @@ header{
 }
 .about .about-text{
     width: 60%;
-    margin-top: 28vh;
+    min-height: 60vh;
+    margin-top: 25vh;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
+
+/* question START  */
+
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid #079c45;
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform 0.5s ease-in;
+}
+
+
+
+
+
+
+
+/* #accordion{
+    margin: 100px auto;
+    width: 600px;
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #079c45;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+#accordion li label span {
+    font-weight: bold;
+    transform: rotate(90deg);
+    /* font-size: 22px; */
+    color: #fefefe;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+
+
+
+
+
+ */
+
+
+
+
+
 @media only screen and (max-width: 1320px)
 {
     header{
@@ -82,3 +206,8 @@ header{
         padding: 0 10px;
     }
 }
+
+
+
+
+  
