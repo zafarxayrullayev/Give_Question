@@ -49,6 +49,19 @@ header{
     background-color: #fefefe;
 }
 
+
+.about{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+.about .about-text{
+    width: 60%;
+    margin-top: 28vh;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
 @media only screen and (max-width: 1320px)
 {
     header{
