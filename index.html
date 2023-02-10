@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <header>
         <div class="logo">Give Question</div>
         <div class="hamburger">
@@ -42,6 +43,7 @@
     <div class="questions">
         
 
+        <!-- logical operator -->
         <section>
             <h2 class="title">Logical Operators</h2>
 
@@ -115,6 +117,7 @@
 
         </section>
 
+        <!-- switch operatori  -->
         <section>
             <h2 class="title">Switch operatori (tanlash operatori)</h2>
             
@@ -149,51 +152,35 @@
             </div>
         </section>
 
-        <!-- <div class="theme">Logical Operators</div>
-        <ul id="accordion">
-            <li>
-                <label for="first">Logical operator nima? <span> &#x3e; </span></label>
-                <input type="radio" name="accordion" id="first" checked>
-                <div class="content">
-                    Bu bizga bir nechta holatlarini birlashtirgan holatda bitta “true” yoki “false”  qiymat hosil qilish uchun yordam beradi.
-                        Masalan: 
-                        if(num > 0 && num % 2 == 0)
-                        {
-                            Console.Write($“{num} soni musbat va u juftdir”);
-                        }
-                        Bu yerda “num” sonini musbat va juft holatlarini birlashtirib tekshirayapmiz.
+        <!-- Switch Expressions -->
+        <section>
+            <h2 class="title">Switch Expressions</h2>
+            
+            <div class="faq">
+                <div class="question">
+                    <h3>Switch Expressions haqida ma'lumot</h3>
 
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecep="round"/>
+                    </svg>
                 </div>
-            </li>
-            <li>
-                <label for="second">Logical operator nima? <span> &#x3e; </span></label>
-                <input type="radio" name="accordion" id="second">
-                <div class="content">
-                    Bu bizga bir nechta holatlarini birlashtirgan holatda bitta “true” yoki “false”  qiymat hosil qilish uchun yordam beradi.
-                        Masalan: 
-                        if(num > 0 && num % 2 == 0)
-                        {
-                            Console.Write($“{num} soni musbat va u juftdir”);
-                        }
-                        Bu yerda “num” sonini musbat va juft holatlarini birlashtirib tekshirayapmiz.
+                <div class="answer">
+                    <p>
+                        Bu Switchning yangicha ko’rinishi hisoblanadi. Bunda “case”, “break” kalit so’zlarini ishlarish shart emas. <br>
+                        string message = operation switch
+                        { <br>
+                            “+” => $“{num1 + num2}” <br>
+                            _     => “tugadi” <br>
+                        }; <br>
+                        Console.Write(message); 
+                        
+                    </p>
+                </div>
+            </div>
+        </section>
 
-                </div>
-            </li>
-            <li>
-                <label for="third">Logical operator nima? <span> &#x3e; </span></label>
-                <input type="radio" name="accordion" id="third" >
-                <div class="content">
-                    Bu bizga bir nechta holatlarini birlashtirgan holatda bitta “true” yoki “false”  qiymat hosil qilish uchun yordam beradi.
-                        Masalan: 
-                        if(num > 0 && num % 2 == 0)
-                        {
-                            Console.Write($“{num} soni musbat va u juftdir”);
-                        }
-                        Bu yerda “num” sonini musbat va juft holatlarini birlashtirib tekshirayapmiz.
 
-                </div>
-            </li>
-        </ul> -->
+        
 
     </div>
 
